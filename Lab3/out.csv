@@ -1,0 +1,20 @@
+
+laplace&\\ \hline
+n = 20     &0.075050     \\ \hline
+n = 100    &0.067020     \\ \hline
+
+normal&\\ \hline
+n = 20     &0.022400     \\ \hline
+n = 100    &0.010750     \\ \hline
+
+uniform&\\ \hline
+n = 20     &0.002500     \\ \hline
+n = 100    &0.000000     \\ \hline
+
+cauchy&\\ \hline
+n = 20     &0.154750     \\ \hline
+n = 100    &0.154550     \\ \hline
+
+poisson&\\ \hline
+n = 20     &0.024900     \\ \hline
+n = 100    &0.010550     \\ \hline

@@ -4,5 +4,5 @@ functions_arr = {
     'cauchy',
     'laplace',
     'poisson',
-    'uniform'
+    'uniform',
 }

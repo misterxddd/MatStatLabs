@@ -22,7 +22,7 @@ def Ztr(x):
     r = int(n / 4)
     amount = 0
     for i in range(r, n - r):
-        amount += x[i + 1]
+        amount += x[i]
     return amount / (n - 2 * r)
 
 

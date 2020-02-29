@@ -6,7 +6,7 @@ from .generate import random_generate_dict
 
 
 def research(dist_type):
-    print('-------------------------------------')
+    print('')
     print(dist_type)
     for num in selection:
         # print(num)
@@ -24,17 +24,17 @@ def research(dist_type):
             print_table['D'].append(D(z))
 
         print()
-        print("%-10s;" % ('n = %i' % num), end="")
+        print("%-10s & " % ('$n = %i$' % num), end="")
         for char_name, _ in characteristics_dict.items():
-            print("%-12s;" % char_name, end="")
+            print("%-12s & " % char_name, end="")
 
-        print()
-        print("%-10s;" % 'E =', end="")
+        print('\\ \hline')
+        print("%-10s & " % '$E =$', end="")
         for e in print_table['E']:
-            print("%-12f;" % e, end="")
+            print("$%-12f$ & " % e, end="")
 
-        print()
-        print("%-10s;" % 'D =', end="")
+        print('\\ \hline')
+        print("%-10s & " % '$D =$', end="")
         for d in print_table['D']:
-            print("%-12f;" % d, end="")
-        print()
+            print("$%-12f$ & " % d, end="")
+        print('\\ \hline')
