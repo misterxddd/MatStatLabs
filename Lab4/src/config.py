@@ -1,0 +1,11 @@
+import numpy as np
+
+POISSON_PARAM = 10
+UNIFORM_FRONT = 4
+LAPLACE_COEF = np.sqrt(2)
+
+selection = [20, 60, 100]
+
+DEFAULT_SMOOTHING = 0.6
+
+smoothing_params = [DEFAULT_SMOOTHING / 2, DEFAULT_SMOOTHING, DEFAULT_SMOOTHING * 2]
