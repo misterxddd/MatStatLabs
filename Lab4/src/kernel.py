@@ -24,7 +24,7 @@ def kernel_function(sample, h, x):
 
 def draw_kernel(sample, func, sector, h, num):
     if sector == 3:
-        plot.title(f'n = {num}. Distribution: {func}. h = [0.3, 0.6, 1.2].')
+        plot.title(f'n = {num}. Distribution: {func}. h = [0.5*h_n, h_n, 2*h_n].')
     plot.subplot(130+sector)
     if func == 'poisson':
         xx = np.linspace(6, 14, 100)
